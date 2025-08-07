@@ -7,5 +7,6 @@
 5.Hard Level</i><br>
 # Arrays 
 <i>
-1.Easy Level-1</i>
+1.Easy Level-1<br>
+2.Easy Level-2</i>
 
