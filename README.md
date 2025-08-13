@@ -8,6 +8,12 @@
 # Arrays 
 <i>
 1.Easy Level-1<br>
-2.Easy Level-2</i>
+2.Easy Level-2<br></i>
+
+# Searching 
+<i>
+  1.Easy Level-1
+</i>
+
 
 
