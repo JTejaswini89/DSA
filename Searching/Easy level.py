@@ -43,9 +43,11 @@ def secondlargest(arr):
     secondlargest=-1
     if n==0:
         return -1
+    #helps in finding the largest element from the array
     for i in range(1,n):
         if arr[i]>largest:
             largest=arr[i]
+    #helps in finding the second largest element from hte array
     for i in range(1,n):
         if arr[i]>secondlargest and arr[i]!=largest:
             secondlargest=arr[i]
@@ -75,6 +77,9 @@ Output: [90, 50, 23]"""
 def get3largest(arr):
     frst=sec=thrd=int()
     n=len(arr)
+    #returns elements in sorted order if there are only three elements
+    if n==3:
+        return sorted(arr)
     for i in range(1,n):
         if arr[i]>frst:
             thrd=sec
@@ -225,4 +230,5 @@ print(' '.join(map(str, res)))
 
 
     
+
 
